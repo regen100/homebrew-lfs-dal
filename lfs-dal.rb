@@ -7,6 +7,7 @@ class LfsDal < Formula
   head "https://github.com/regen100/lfs-dal.git", branch: "main"
 
   depends_on "rust" => :build
+  depends_on "git-lfs"
 
   def install
     system "cargo", "install", *std_cargo_args
