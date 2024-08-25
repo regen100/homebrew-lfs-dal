@@ -1,8 +1,8 @@
 class LfsDal < Formula
   desc "Custom transfer agent for Git LFS powered by OpenDAL"
   homepage "https://github.com/regen100/lfs-dal"
-  url "https://github.com/regen100/lfs-dal/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "0039f12a6d246cc7c805a322bde50dcebdae40debb66a23a5275171246a8b865"
+  url "https://github.com/regen100/lfs-dal/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "91331503a3065951e0fac512a1e922e0108f67dd93cbdb05030297fed89dddfc"
   license "MIT"
   head "https://github.com/regen100/lfs-dal.git", branch: "main"
 
